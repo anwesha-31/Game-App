@@ -1,0 +1,35 @@
+<%- include("partials/header")-%>
+
+<h1 class="gameTitle">Tic Tac Toe</h1>
+<div class="container">
+
+	<table>
+        <tr>
+            <td class="square col-lg-4" id="s1"></td>
+            <td class="square vertical col-lg-4" id="s2"></td>
+            <td class="square col-lg-4" id="s3"></td>
+        </tr>
+    
+        <tr>
+            <td class="square horizontal col-lg-4" id="s4"></td>
+            <td class="square vertical horizontal col-lg-4" id="s5"></td>
+            <td class="square horizontal col-lg-4" id="s6"></td>
+        </tr>
+    
+        <tr>
+            <td class="square col-lg-4" id="s7"></td>
+            <td class="square vertical col-lg-4" id="s8"></td>
+            <td class="square col-lg-4" id="s9"></td>
+        </tr>
+    </table>
+
+	<p class="turn"></p>
+	<h1 class="result"></h1>
+	<div class="btn">
+		<button class="btn btn-info">Reset</button>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="tictactoe.js"></script>
+<%- include("partials/footer") -%>
