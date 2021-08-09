@@ -8,7 +8,7 @@ var square = $(".square");
 
 square.click(function(){
     if(!isGameOver && $(this).text()===""){
-        if(count%2 === 0){
+        if(count%2 === 0){ 
             $(this).text("X");
             $(this).css('background', '#FFFF5C');
             $(this).css('color','blue')
